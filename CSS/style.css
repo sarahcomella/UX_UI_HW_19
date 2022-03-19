@@ -53,7 +53,7 @@ ul li:hover{
 }
 
 .flexContainer h1 {
-    background-image: linear-gradient(#ffffff 50%, #ffffff 50%, #F6C547 50%, #F6C547 50%);
+    background-image: linear-gradient(#ffffff 50%, #ffffff 50%, #F7CF66 50%, #F7CF66 50%);
     margin: 0%;
     padding-left: 5%;
 }
@@ -61,14 +61,14 @@ ul li:hover{
 .flexContainer h2{
     font-weight: 100;
     font-size: medium;
-    background-color: #F6C547;
+    background-color: #F7CF66;
 }
 
 .homeHero{
     padding-bottom: 5%;
 }
 .background{
-    background-color: #F6C547;
+    background-color: #F7CF66;
     padding-left: 5%;
 }
 
@@ -87,21 +87,21 @@ ul li:hover{
 
 .composerFestImage {
     background-image: url('../Images/22CompFest .png');
-    height: 125%;
+    height: 150%;
     background-size: 350px;
     background-repeat: no-repeat;
 }
 
 .critGroupImage {
     background-image: url('../Images/critGroup.png');
-    height: 125%;
+    height: 150%;
     background-size: 350px;
     background-repeat: no-repeat;
 }
 
 .projectPropImage {
     background-image: url('../Images/projectProp.png');
-    height: 125%;
+    height: 150%;
     background-size: 350px;
     background-repeat: no-repeat;
 }
@@ -181,6 +181,11 @@ cursor: pointer;
 .footerLogos {
     float: right;
     margin-right: 2%;
+   margin-top: 2%;
+}
+
+.footer nav{
+    float: left;
 }
 
 a {
@@ -192,9 +197,6 @@ a:hover {
     cursor: pointer;
 }
 
-.footer nav{
-    float: left;
-}
 
 .bio{
     display: flex;
@@ -202,13 +204,13 @@ a:hover {
 }
 
 .homeText{
-    padding: 2%;
-    margin: 2%;
+    padding: 1%;
+    margin: 1%;
 }
 
 .homeImage {
-    width: 50%;
-    padding: 2%;
+    width: 30%;
+    padding: 1%;
  }
 
 .homeHeroImage{
@@ -244,7 +246,7 @@ a:hover {
         "festival"
         "crit"
         "project";
-        row-gap: 60%;
+        row-gap: 80%;
         margin-left: 2%;
     }
     .workGrid p {
@@ -252,18 +254,18 @@ a:hover {
     }
 
     .composerFestImage{
-        height: 150%;
+        height: 200%;
         width: auto;
         background-repeat: no-repeat;
     }
     .critGroupImage{
-        height: 150%;
+        height: 200%;
         width: auto;
         background-repeat: no-repeat;
     }
 
     .projectPropImage{
-        height: 150%;
+        height: 200%;
         width: auto;
         background-repeat: no-repeat;
     }
@@ -280,4 +282,8 @@ a:hover {
     .hero {
         margin-top: 115%;
     }
+}
+
+#support{
+    font-weight: 500;
 }
