@@ -188,7 +188,7 @@ cursor: pointer;
     float: left;
 }
 
-a {
+h2 a {
     color:#8CA5FF;
     text-decoration: underline;
 }
@@ -224,6 +224,7 @@ a:hover {
         column-gap: 5%;
         margin-bottom: 20%;
         column-width: 30%;
+        padding-left: 2%;
  }
 
 .festival{
@@ -286,4 +287,15 @@ a:hover {
 
 #support{
     font-weight: 500;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFC411;
+    cursor: pointer;
 }
